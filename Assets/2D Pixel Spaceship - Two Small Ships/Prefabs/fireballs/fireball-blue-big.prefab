@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1709863741857892367, guid: dab741a7faca6484389e5e997375b61e, type: 3}
+  boom: {fileID: 21300000, guid: c3a3f89839f433040b069c31bb3b3811, type: 3}
 --- !u!61 &-8079449664160127001
 BoxCollider2D:
   m_ObjectHideFlags: 0

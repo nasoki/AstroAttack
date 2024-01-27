@@ -16,7 +16,7 @@ public class EnemyMovement : MonoBehaviour
     {
         while (true)
         {
-            Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z); // Move towards the lower edge of the screen
+            Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
             float elapsedTime = 0f;
 
             while (elapsedTime < 2f)
@@ -40,6 +40,7 @@ public class EnemyMovement : MonoBehaviour
         else if (collision.CompareTag("Bounds"))
         {
             gameoverpanel.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
